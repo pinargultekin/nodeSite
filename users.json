@@ -1,0 +1,20 @@
+{
+    "celeb1" : {
+       "name" : "Javier Bardem",
+       "oscarYear" : "2008",
+       "oscarMovie" : "No Country for Old Man",
+       "id": 100
+    },
+    "celeb2" : {
+       "name" : "Frances McDormand",
+       "oscarYear" : "2018",
+       "oscarMovie" : "Three Billboards Outside Ebbing Missouri",
+       "id": 101
+    },
+    "celeb3" : {
+       "name" : "Emma Stone",
+       "oscarYear" : "2017",
+       "oscarMovie" : "La La Land",
+       "id": 102
+    }
+ }
