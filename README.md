@@ -5,32 +5,26 @@ Then I wrote methods for each button.
 GET method calls "Actor Name", "Oscar Year", "Movie Name", and "ID" from Users JSON file.
 I used $.getJSON method. 
 It responds like that;
-
-   {
-    "celeb1": {
-    "name": "Javier Bardem",
-    "oscarYear": "2008",
-    "oscarMovie": "No Country for Old Man",
-    "id": 100
-  },
-  "celeb2": {
-    "name": "Frances McDormand",
-    "oscarYear": "2018",
-    "oscarMovie": "Three Billboards Outside Ebbing Missouri",
-    "id": 101
-  },
-  "celeb3": {
-    "name": "Emma Stone",
-    "oscarYear": "2017",
-    "oscarMovie": "La La Land",
-    "id": 102
-  }
-}
-Actor Name	Oscar Year	Movie Name	ID
-Javier Bardem	2008	No Country for Old Man	100
-Frances McDormand	2018	Three Billboards Outside Ebbing Missouri	101
-Emma Stone	2017	La La Land	102
-
+{
+    "celeb1" : {
+       "name" : "Javier Bardem",
+       "oscarYear" : "2008",
+       "oscarMovie" : "No Country for Old Man",
+       "id": 100
+    },
+    "celeb2" : {
+       "name" : "Frances McDormand",
+       "oscarYear" : "2018",
+       "oscarMovie" : "Three Billboards Outside Ebbing Missouri",
+       "id": 101
+    },
+    "celeb3" : {
+       "name" : "Emma Stone",
+       "oscarYear" : "2017",
+       "oscarMovie" : "La La Land",
+       "id": 102
+    }
+ }
 POST method calls agencies from giving URL and it responds like;
 
 {
@@ -59,7 +53,7 @@ POST method calls agencies from giving URL and it responds like;
     },
     
    DELETE method deletes by Id number. I set the Id =102.
-   When I click the DELETE button console responds "Delete user 102".
+   When I click the DELETE button console responds DELETE USER 102.
    
    PUT method calls "Actor Name", "Oscar Year", "Movie Name", and "ID" from Users JSON file.
 I used $.getJSON method. 
