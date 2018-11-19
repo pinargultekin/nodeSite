@@ -6,8 +6,8 @@ GET method calls "Actor Name", "Oscar Year", "Movie Name", and "ID" from Users J
 I used $.getJSON method. 
 It responds like that;
 
-{
-  "celeb1": {
+   {
+    "celeb1": {
     "name": "Javier Bardem",
     "oscarYear": "2008",
     "oscarMovie": "No Country for Old Man",
